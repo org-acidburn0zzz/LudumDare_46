@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Projectile
+  - Player_Sword
+  - Enemy
+  - Enemy_Projectile
   layers:
   - Default
   - TransparentFX
@@ -13,10 +18,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Mobs
+  - Projectiles
+  - Background
+  - Midground
   - 
   - 
   - 
@@ -38,6 +43,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2369049283
+    locked: 0
+  - name: Midground
+    uniqueID: 980056215
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Decorations
+    uniqueID: 4057724081
+    locked: 0
+  - name: Mobs
+    uniqueID: 1668906183
+    locked: 0
+  - name: Player
+    uniqueID: 3535467687
+    locked: 0
+  - name: Projectiles
+    uniqueID: 158904957
     locked: 0
