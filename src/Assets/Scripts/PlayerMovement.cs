@@ -31,9 +31,14 @@ public class PlayerMovement : MonoBehaviour
         GetMoveInput();
         FaceDirection();
         WalkAnimation();
-        Move();
         Jump();
     }
+
+    private void FixedUpdate()
+    {
+        Move();
+    }
+
     private void WalkAnimation()
     {
         if (Input.GetAxis("Horizontal") != 0)
@@ -82,12 +87,15 @@ public class PlayerMovement : MonoBehaviour
 
     void GetMoveInput()
     {
-        xMov = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        xMov = Input.GetAxis("Horizontal") * moveSpeed;
     }
 
     void Move()
     {
-        transform.position = new Vector2(transform.position.x + xMov, transform.position.y);
+        //transform.position = new Vector2(transform.position.x + xMov, transform.position.y);
+        Vector2 movement = new Vector2(xMov, rb.velocity.y);
+       // rb.AddForce(movement);
+        rb.velocity = movement;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
