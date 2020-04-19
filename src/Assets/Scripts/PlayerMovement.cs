@@ -52,10 +52,12 @@ public class PlayerMovement : MonoBehaviour
         {
             sr.flipX = true;
             transform.Find("Sword").transform.rotation = Quaternion.Euler(0, 180, 0);
+            transform.Find("ShootingPoint").transform.rotation = Quaternion.Euler(0, 180, 0);
         } else if (xMov > 0)
         {
             sr.flipX = false;
             transform.Find("Sword").transform.rotation = Quaternion.Euler(0, 0, 0);
+            transform.Find("ShootingPoint").transform.rotation = Quaternion.Euler(0, 0, 0);
         }
     }
 
@@ -104,5 +106,10 @@ public class PlayerMovement : MonoBehaviour
             onGround = false;
             anim.SetBool("isFalling", true);
         }
+    }
+
+    public bool PlayerIsOnGround()
+    {
+        return onGround;
     }
 }

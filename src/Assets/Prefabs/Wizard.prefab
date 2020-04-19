@@ -46,7 +46,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 4.21, y: 15}
+  m_Size: {x: 4.21, y: 20.81}
   m_Direction: 0
 --- !u!114 &10244163119119754
 MonoBehaviour:
@@ -243,7 +243,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 90
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -386,6 +386,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3cdc425aa03f974697bf6ef31a3396d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackSound:
+  - {fileID: 8300000, guid: c77b233f4f228fb4c819ded5190c0157, type: 3}
+  - {fileID: 8300000, guid: 4abb15901f92fad47a42d576ec62ff05, type: 3}
   rateOfFire: 0.3
   projectilePrefab: {fileID: 1029718241689141660, guid: 0bc15dae94b946c4790025664dfcb6d2,
     type: 3}

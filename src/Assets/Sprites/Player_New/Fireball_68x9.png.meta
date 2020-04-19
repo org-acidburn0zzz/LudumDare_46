@@ -1,0 +1,2765 @@
+fileFormatVersion: 2
+guid: 49870d0066d715741b98fa07c3bca7db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6751714252925439555
+    second: Fireball_68x9_0
+  - first:
+      213: 5903488157300441091
+    second: Fireball_68x9_1
+  - first:
+      213: 1443597621391528799
+    second: Fireball_68x9_2
+  - first:
+      213: 472179904262349734
+    second: Fireball_68x9_3
+  - first:
+      213: 2986507539502064043
+    second: Fireball_68x9_4
+  - first:
+      213: 3357656541143068040
+    second: Fireball_68x9_5
+  - first:
+      213: -444123919233049710
+    second: Fireball_68x9_6
+  - first:
+      213: -2378150318201266576
+    second: Fireball_68x9_7
+  - first:
+      213: 6875924706304647040
+    second: Fireball_68x9_8
+  - first:
+      213: -6082989364927180995
+    second: Fireball_68x9_9
+  - first:
+      213: 909082757923473153
+    second: Fireball_68x9_10
+  - first:
+      213: 3110470106784092412
+    second: Fireball_68x9_11
+  - first:
+      213: 6206605017746305057
+    second: Fireball_68x9_12
+  - first:
+      213: -3912195062706704731
+    second: Fireball_68x9_13
+  - first:
+      213: -8863274530320407994
+    second: Fireball_68x9_14
+  - first:
+      213: 2004535979817391400
+    second: Fireball_68x9_15
+  - first:
+      213: 2787733286799551009
+    second: Fireball_68x9_16
+  - first:
+      213: -5783274460118220527
+    second: Fireball_68x9_17
+  - first:
+      213: 6883245012052219954
+    second: Fireball_68x9_18
+  - first:
+      213: 3413807927318877873
+    second: Fireball_68x9_19
+  - first:
+      213: 8376899592601702199
+    second: Fireball_68x9_20
+  - first:
+      213: -4393418604058560609
+    second: Fireball_68x9_21
+  - first:
+      213: 8881644227444212477
+    second: Fireball_68x9_22
+  - first:
+      213: 7011800233992805329
+    second: Fireball_68x9_23
+  - first:
+      213: -3880589164017857647
+    second: Fireball_68x9_24
+  - first:
+      213: 1834933442893327518
+    second: Fireball_68x9_25
+  - first:
+      213: -8778739642554736338
+    second: Fireball_68x9_26
+  - first:
+      213: 2427425863226875423
+    second: Fireball_68x9_27
+  - first:
+      213: 893470029658487977
+    second: Fireball_68x9_28
+  - first:
+      213: -1095980639973349326
+    second: Fireball_68x9_29
+  - first:
+      213: 6021675592393034704
+    second: Fireball_68x9_30
+  - first:
+      213: -4658831726128025800
+    second: Fireball_68x9_31
+  - first:
+      213: 3116355274264950829
+    second: Fireball_68x9_32
+  - first:
+      213: 6974275816050128468
+    second: Fireball_68x9_33
+  - first:
+      213: -2450086740473091136
+    second: Fireball_68x9_34
+  - first:
+      213: -4215072722310588757
+    second: Fireball_68x9_35
+  - first:
+      213: 1353171352386910349
+    second: Fireball_68x9_36
+  - first:
+      213: 6904546004812367260
+    second: Fireball_68x9_37
+  - first:
+      213: -3745809098180548232
+    second: Fireball_68x9_38
+  - first:
+      213: -7686493986855583796
+    second: Fireball_68x9_39
+  - first:
+      213: -7462188670589342954
+    second: Fireball_68x9_40
+  - first:
+      213: -6425920441898738046
+    second: Fireball_68x9_41
+  - first:
+      213: -5963431157970881388
+    second: Fireball_68x9_42
+  - first:
+      213: 442960329972602938
+    second: Fireball_68x9_43
+  - first:
+      213: -7617783215604140205
+    second: Fireball_68x9_44
+  - first:
+      213: 3336516732341897408
+    second: Fireball_68x9_45
+  - first:
+      213: -8741795146962497199
+    second: Fireball_68x9_46
+  - first:
+      213: 2168704467175609547
+    second: Fireball_68x9_47
+  - first:
+      213: -9150362890858068325
+    second: Fireball_68x9_48
+  - first:
+      213: -18839807732191697
+    second: Fireball_68x9_49
+  - first:
+      213: -4945428294040635953
+    second: Fireball_68x9_50
+  - first:
+      213: 4826752985207316633
+    second: Fireball_68x9_51
+  - first:
+      213: -4352634533527582243
+    second: Fireball_68x9_52
+  - first:
+      213: 2585635041878078545
+    second: Fireball_68x9_53
+  - first:
+      213: 6910229699484843807
+    second: Fireball_68x9_54
+  - first:
+      213: -3065615964308856656
+    second: Fireball_68x9_55
+  - first:
+      213: 9020169680612134936
+    second: Fireball_68x9_56
+  - first:
+      213: -5648242942799980756
+    second: Fireball_68x9_57
+  - first:
+      213: -5002556437435511978
+    second: Fireball_68x9_58
+  - first:
+      213: -215728619400401978
+    second: Fireball_68x9_59
+  - first:
+      213: 5990821241342057465
+    second: Fireball_68x9_60
+  - first:
+      213: -3102989170324715689
+    second: Fireball_68x9_61
+  - first:
+      213: 717850109115025007
+    second: Fireball_68x9_62
+  - first:
+      213: -3846010023645763503
+    second: Fireball_68x9_63
+  - first:
+      213: 2933027726674081826
+    second: Fireball_68x9_64
+  - first:
+      213: -2829629120881139318
+    second: Fireball_68x9_65
+  - first:
+      213: -7597172411601721603
+    second: Fireball_68x9_66
+  - first:
+      213: 4397748095173604625
+    second: Fireball_68x9_67
+  - first:
+      213: 3688895023044264986
+    second: Fireball_68x9_68
+  - first:
+      213: 3234578581958671873
+    second: Fireball_68x9_69
+  - first:
+      213: -6110148789398449695
+    second: Fireball_68x9_70
+  - first:
+      213: -8381718356498923297
+    second: Fireball_68x9_71
+  - first:
+      213: -120851142233414632
+    second: Fireball_68x9_72
+  - first:
+      213: 7655549223334380540
+    second: Fireball_68x9_73
+  - first:
+      213: 4230599795093273631
+    second: Fireball_68x9_74
+  - first:
+      213: 5757261719174524090
+    second: Fireball_68x9_75
+  - first:
+      213: -4355916083081509367
+    second: Fireball_68x9_76
+  - first:
+      213: 6254166172695999896
+    second: Fireball_68x9_77
+  - first:
+      213: -4493656262193297797
+    second: Fireball_68x9_78
+  - first:
+      213: -588692729402087863
+    second: Fireball_68x9_79
+  - first:
+      213: -8338336132056359142
+    second: Fireball_68x9_80
+  - first:
+      213: 3968509572921135242
+    second: Fireball_68x9_81
+  - first:
+      213: -980053712271382187
+    second: Fireball_68x9_82
+  - first:
+      213: -3964357689545394203
+    second: Fireball_68x9_83
+  - first:
+      213: -11125746326039130
+    second: Fireball_68x9_84
+  - first:
+      213: -2805145332128894559
+    second: Fireball_68x9_85
+  - first:
+      213: -6193600369325715840
+    second: Fireball_68x9_86
+  - first:
+      213: -8324887845528045520
+    second: Fireball_68x9_87
+  - first:
+      213: -8992598782133938089
+    second: Fireball_68x9_88
+  - first:
+      213: 5770959956262587778
+    second: Fireball_68x9_89
+  - first:
+      213: 4265159650874727577
+    second: Fireball_68x9_90
+  - first:
+      213: 7698881479483634699
+    second: Fireball_68x9_91
+  - first:
+      213: -8903578247434979335
+    second: Fireball_68x9_92
+  - first:
+      213: -5879609628885292932
+    second: Fireball_68x9_93
+  - first:
+      213: 6514116315039077502
+    second: Fireball_68x9_94
+  - first:
+      213: 7819558843249981640
+    second: Fireball_68x9_95
+  - first:
+      213: 5286764258872440642
+    second: Fireball_68x9_96
+  - first:
+      213: 5074067426527181787
+    second: Fireball_68x9_97
+  - first:
+      213: -3820974899578122488
+    second: Fireball_68x9_98
+  - first:
+      213: 3730463966711899334
+    second: Fireball_68x9_99
+  - first:
+      213: 4890219170352815092
+    second: Fireball_68x9_100
+  - first:
+      213: -5703686222385556456
+    second: Fireball_68x9_101
+  - first:
+      213: 5147494070806849710
+    second: Fireball_68x9_102
+  - first:
+      213: 3860378885716750408
+    second: Fireball_68x9_103
+  - first:
+      213: 2331990464660412949
+    second: Fireball_68x9_104
+  - first:
+      213: 4867274639238006017
+    second: Fireball_68x9_105
+  - first:
+      213: -286985517785580340
+    second: Fireball_68x9_106
+  - first:
+      213: -1281368502589132516
+    second: Fireball_68x9_107
+  - first:
+      213: 2572205611140250068
+    second: Fireball_68x9_108
+  - first:
+      213: -6692685609387594860
+    second: Fireball_68x9_109
+  - first:
+      213: 5240848152169521432
+    second: Fireball_68x9_110
+  - first:
+      213: 8155239138678126662
+    second: Fireball_68x9_111
+  - first:
+      213: 6062216234687880342
+    second: Fireball_68x9_112
+  - first:
+      213: 1090157253076065158
+    second: Fireball_68x9_113
+  - first:
+      213: -2448481274107747432
+    second: Fireball_68x9_114
+  - first:
+      213: -6251679901508620775
+    second: Fireball_68x9_115
+  - first:
+      213: 1347708420192491085
+    second: Fireball_68x9_116
+  - first:
+      213: -3804122592609671425
+    second: Fireball_68x9_117
+  - first:
+      213: 1603886699602345569
+    second: Fireball_68x9_118
+  - first:
+      213: 484634317057050677
+    second: Fireball_68x9_119
+  - first:
+      213: -6075473512379270143
+    second: Fireball_68x9_120
+  - first:
+      213: -2782597163953193284
+    second: Fireball_68x9_121
+  - first:
+      213: -8472472564900085219
+    second: Fireball_68x9_122
+  - first:
+      213: -2662986848389842868
+    second: Fireball_68x9_123
+  - first:
+      213: 5416936105787527227
+    second: Fireball_68x9_124
+  - first:
+      213: 49205824076095292
+    second: Fireball_68x9_125
+  - first:
+      213: -3589667656836605488
+    second: Fireball_68x9_126
+  - first:
+      213: 4694923625400780752
+    second: Fireball_68x9_127
+  - first:
+      213: -6952011940135161020
+    second: Fireball_68x9_128
+  - first:
+      213: -716524317439753238
+    second: Fireball_68x9_129
+  - first:
+      213: -7337761056307348773
+    second: Fireball_68x9_130
+  - first:
+      213: -4910554300255921371
+    second: Fireball_68x9_131
+  - first:
+      213: -6688430880069716091
+    second: Fireball_68x9_132
+  - first:
+      213: -2100826204484011605
+    second: Fireball_68x9_133
+  - first:
+      213: -4815124920791566264
+    second: Fireball_68x9_134
+  - first:
+      213: 147569381073470382
+    second: Fireball_68x9_135
+  - first:
+      213: -519462072328745266
+    second: Fireball_68x9_136
+  - first:
+      213: 6020232404791878557
+    second: Fireball_68x9_137
+  - first:
+      213: 2190801706660527801
+    second: Fireball_68x9_138
+  - first:
+      213: 4351334439544448655
+    second: Fireball_68x9_139
+  - first:
+      213: -7282161503408146072
+    second: Fireball_68x9_140
+  - first:
+      213: 2123827141676132836
+    second: Fireball_68x9_141
+  - first:
+      213: 5515036463085095433
+    second: Fireball_68x9_142
+  - first:
+      213: 1127368467182797686
+    second: Fireball_68x9_143
+  - first:
+      213: 4627691753851031316
+    second: Fireball_68x9_144
+  - first:
+      213: -1867789821460801659
+    second: Fireball_68x9_145
+  - first:
+      213: -3659240274251666568
+    second: Fireball_68x9_146
+  - first:
+      213: -6512245819267255252
+    second: Fireball_68x9_147
+  - first:
+      213: -6164066089188723941
+    second: Fireball_68x9_148
+  - first:
+      213: 6546552831700141503
+    second: Fireball_68x9_149
+  - first:
+      213: 2402736523950737825
+    second: Fireball_68x9_150
+  - first:
+      213: 98398082271624267
+    second: Fireball_68x9_151
+  - first:
+      213: -3571064822393694638
+    second: Fireball_68x9_152
+  - first:
+      213: 8536805574806631932
+    second: Fireball_68x9_153
+  - first:
+      213: -6924384796661409299
+    second: Fireball_68x9_154
+  - first:
+      213: -8961265135601748900
+    second: Fireball_68x9_155
+  - first:
+      213: -7947670832236149742
+    second: Fireball_68x9_156
+  - first:
+      213: 2084204732872765970
+    second: Fireball_68x9_157
+  - first:
+      213: -9166628463131336615
+    second: Fireball_68x9_158
+  - first:
+      213: -7710492424013013342
+    second: Fireball_68x9_159
+  - first:
+      213: 6458018801649154439
+    second: Fireball_68x9_160
+  - first:
+      213: -4527264399502850328
+    second: Fireball_68x9_161
+  - first:
+      213: -6599030717665797151
+    second: Fireball_68x9_162
+  - first:
+      213: 387784513446976050
+    second: Fireball_68x9_163
+  - first:
+      213: 6104128256410694025
+    second: Fireball_68x9_164
+  - first:
+      213: 6164626305797101502
+    second: Fireball_68x9_165
+  - first:
+      213: -5518760290820718550
+    second: Fireball_68x9_166
+  - first:
+      213: 8524870160467886482
+    second: Fireball_68x9_167
+  - first:
+      213: 1590027386353116630
+    second: Fireball_68x9_168
+  - first:
+      213: 4922012806549932664
+    second: Fireball_68x9_169
+  - first:
+      213: 2515264573532047428
+    second: Fireball_68x9_170
+  - first:
+      213: 8854092587562860052
+    second: Fireball_68x9_171
+  - first:
+      213: -3406417384090097091
+    second: Fireball_68x9_172
+  - first:
+      213: -7221598313790410837
+    second: Fireball_68x9_173
+  - first:
+      213: 3510641022885799104
+    second: Fireball_68x9_174
+  - first:
+      213: 5282852201118820150
+    second: Fireball_68x9_175
+  - first:
+      213: 1995990372381541982
+    second: Fireball_68x9_176
+  - first:
+      213: 1248948516613413643
+    second: Fireball_68x9_177
+  - first:
+      213: 1661866268611577613
+    second: Fireball_68x9_178
+  - first:
+      213: 4467600611213821902
+    second: Fireball_68x9_179
+  - first:
+      213: 673182620357515007
+    second: Fireball_68x9_180
+  - first:
+      213: -7425815817172474504
+    second: Fireball_68x9_181
+  - first:
+      213: -1649951454262772462
+    second: Fireball_68x9_182
+  - first:
+      213: -8812560840997704082
+    second: Fireball_68x9_183
+  - first:
+      213: -5190266364547124039
+    second: Fireball_68x9_184
+  - first:
+      213: -5411752397124115581
+    second: Fireball_68x9_185
+  - first:
+      213: -6636961983335932236
+    second: Fireball_68x9_186
+  - first:
+      213: 3979196204849709892
+    second: Fireball_68x9_187
+  - first:
+      213: -2666158767114631893
+    second: Fireball_68x9_188
+  - first:
+      213: -7946480582821348079
+    second: Fireball_68x9_189
+  - first:
+      213: 7480826933607713921
+    second: Fireball_68x9_190
+  - first:
+      213: 794804363986048572
+    second: Fireball_68x9_191
+  - first:
+      213: 7116595162882423672
+    second: Fireball_68x9_192
+  - first:
+      213: -5438585106554466578
+    second: Fireball_68x9_193
+  - first:
+      213: 3751623169476256019
+    second: Fireball_68x9_194
+  - first:
+      213: 3959481981144176913
+    second: Fireball_68x9_195
+  - first:
+      213: 782534465343623801
+    second: Fireball_68x9_196
+  - first:
+      213: 3068599551810012901
+    second: Fireball_68x9_197
+  - first:
+      213: 7634581509410581282
+    second: Fireball_68x9_198
+  - first:
+      213: -1620553556639026316
+    second: Fireball_68x9_199
+  - first:
+      213: 1295502898043371254
+    second: Fireball_68x9_200
+  - first:
+      213: 6142659120425934486
+    second: Fireball_68x9_201
+  - first:
+      213: -1847589997295830120
+    second: Fireball_68x9_202
+  - first:
+      213: 2743672669573914729
+    second: Fireball_68x9_203
+  - first:
+      213: -4382693584142671062
+    second: Fireball_68x9_204
+  - first:
+      213: 1719922008922607703
+    second: Fireball_68x9_205
+  - first:
+      213: -7520018798740482689
+    second: Fireball_68x9_206
+  - first:
+      213: 2404146460581765899
+    second: Fireball_68x9_207
+  - first:
+      213: 2898787258122369513
+    second: Fireball_68x9_208
+  - first:
+      213: 2636467660678415104
+    second: Fireball_68x9_209
+  - first:
+      213: 3935144338774217479
+    second: Fireball_68x9_210
+  - first:
+      213: -2563638159179799759
+    second: Fireball_68x9_211
+  - first:
+      213: 2017630338599451385
+    second: Fireball_68x9_212
+  - first:
+      213: 7041888466898076316
+    second: Fireball_68x9_213
+  - first:
+      213: -4060308913335587849
+    second: Fireball_68x9_214
+  - first:
+      213: 1362013193791939742
+    second: Fireball_68x9_215
+  - first:
+      213: 2328556202257092353
+    second: Fireball_68x9_216
+  - first:
+      213: 4985914431470832519
+    second: Fireball_68x9_217
+  - first:
+      213: 2351067295728164161
+    second: Fireball_68x9_218
+  - first:
+      213: -2200805506007586102
+    second: Fireball_68x9_219
+  - first:
+      213: 2466554261133270260
+    second: Fireball_68x9_220
+  - first:
+      213: 3762107274519672548
+    second: Fireball_68x9_221
+  - first:
+      213: 5168095540704964256
+    second: Fireball_68x9_222
+  - first:
+      213: 825874320586120305
+    second: Fireball_68x9_223
+  - first:
+      213: 6374901362146052530
+    second: Fireball_68x9_224
+  - first:
+      213: 686080820970806283
+    second: Fireball_68x9_225
+  - first:
+      213: 5554798862908848002
+    second: Fireball_68x9_226
+  - first:
+      213: -2955573907920114585
+    second: Fireball_68x9_227
+  - first:
+      213: 8886635568106221759
+    second: Fireball_68x9_228
+  - first:
+      213: 8485125859045833281
+    second: Fireball_68x9_229
+  - first:
+      213: -1890474205980436711
+    second: Fireball_68x9_230
+  - first:
+      213: -694730669039493778
+    second: Fireball_68x9_231
+  - first:
+      213: 6012484597899106044
+    second: Fireball_68x9_232
+  - first:
+      213: 5958530490053779864
+    second: Fireball_68x9_233
+  - first:
+      213: -97748475673808997
+    second: Fireball_68x9_234
+  - first:
+      213: 6664543792304987032
+    second: Fireball_68x9_235
+  - first:
+      213: 8896114164394430466
+    second: Fireball_68x9_236
+  - first:
+      213: -3238143945956930127
+    second: Fireball_68x9_237
+  - first:
+      213: -1389209388048181535
+    second: Fireball_68x9_238
+  - first:
+      213: 4307552392672215503
+    second: Fireball_68x9_239
+  - first:
+      213: -1199379989900908847
+    second: Fireball_68x9_240
+  - first:
+      213: 4317587037385379427
+    second: Fireball_68x9_241
+  - first:
+      213: -2235827117456102629
+    second: Fireball_68x9_242
+  - first:
+      213: 1386998086820108744
+    second: Fireball_68x9_243
+  - first:
+      213: 3954103683584163407
+    second: Fireball_68x9_244
+  - first:
+      213: 9015978645386031348
+    second: Fireball_68x9_245
+  - first:
+      213: -5441530362983660582
+    second: Fireball_68x9_246
+  - first:
+      213: 8255193785202806318
+    second: Fireball_68x9_247
+  - first:
+      213: -6946414565581931436
+    second: Fireball_68x9_248
+  - first:
+      213: 4515649738213679106
+    second: Fireball_68x9_249
+  - first:
+      213: 1418157818929799167
+    second: Fireball_68x9_250
+  - first:
+      213: 5718851198505574140
+    second: Fireball_68x9_251
+  - first:
+      213: 4687719447778497251
+    second: Fireball_68x9_252
+  - first:
+      213: 6756671712669873202
+    second: Fireball_68x9_253
+  - first:
+      213: 303190645890056145
+    second: Fireball_68x9_254
+  - first:
+      213: 263702785987252851
+    second: Fireball_68x9_255
+  - first:
+      213: 2500476751896941952
+    second: Fireball_68x9_256
+  - first:
+      213: -8636680752455488180
+    second: Fireball_68x9_257
+  - first:
+      213: -8410117058281189412
+    second: Fireball_68x9_258
+  - first:
+      213: -2270876879698797061
+    second: Fireball_68x9_259
+  - first:
+      213: 965060928477771376
+    second: Fireball_68x9_260
+  - first:
+      213: -8995571787153749623
+    second: Fireball_68x9_261
+  - first:
+      213: 5122208483128448763
+    second: Fireball_68x9_262
+  - first:
+      213: 2789551292266041091
+    second: Fireball_68x9_263
+  - first:
+      213: -3868118557351197919
+    second: Fireball_68x9_264
+  - first:
+      213: -5933532273555392772
+    second: Fireball_68x9_265
+  - first:
+      213: 8925332470604627596
+    second: Fireball_68x9_266
+  - first:
+      213: -7493551155667588154
+    second: Fireball_68x9_267
+  - first:
+      213: -240830368522015612
+    second: Fireball_68x9_268
+  - first:
+      213: -3343086953087527623
+    second: Fireball_68x9_269
+  - first:
+      213: 8007418018950881705
+    second: Fireball_68x9_270
+  - first:
+      213: 1562198650057459242
+    second: Fireball_68x9_271
+  - first:
+      213: -403409427464728332
+    second: Fireball_68x9_272
+  - first:
+      213: -7048455109960077612
+    second: Fireball_68x9_273
+  - first:
+      213: 4490800950412684039
+    second: Fireball_68x9_274
+  - first:
+      213: 5279413660198827312
+    second: Fireball_68x9_275
+  - first:
+      213: -1489333973502615214
+    second: Fireball_68x9_276
+  - first:
+      213: -899166453571836696
+    second: Fireball_68x9_277
+  - first:
+      213: -579867257363168696
+    second: Fireball_68x9_278
+  - first:
+      213: -8575697191593986671
+    second: Fireball_68x9_279
+  - first:
+      213: 7258585447776657623
+    second: Fireball_68x9_280
+  - first:
+      213: 5215447998371988754
+    second: Fireball_68x9_281
+  - first:
+      213: -5673448858035547085
+    second: Fireball_68x9_282
+  - first:
+      213: -3999629339328458823
+    second: Fireball_68x9_283
+  - first:
+      213: -5351863260120196511
+    second: Fireball_68x9_284
+  - first:
+      213: 6197113888552372198
+    second: Fireball_68x9_285
+  - first:
+      213: 1624829125897409339
+    second: Fireball_68x9_286
+  - first:
+      213: -5388899961806568016
+    second: Fireball_68x9_287
+  - first:
+      213: 8458439560259304537
+    second: Fireball_68x9_288
+  - first:
+      213: -7666831756747006489
+    second: Fireball_68x9_289
+  - first:
+      213: -5030167433055729174
+    second: Fireball_68x9_290
+  - first:
+      213: -2575796477011132745
+    second: Fireball_68x9_291
+  - first:
+      213: -3228224515334151075
+    second: Fireball_68x9_292
+  - first:
+      213: 8070011664864565026
+    second: Fireball_68x9_293
+  - first:
+      213: 135631627341129509
+    second: Fireball_68x9_294
+  - first:
+      213: -5933442696297949314
+    second: Fireball_68x9_295
+  - first:
+      213: 571865283481911863
+    second: Fireball_68x9_296
+  - first:
+      213: -8505221148824877516
+    second: Fireball_68x9_297
+  - first:
+      213: 4906654787642129478
+    second: Fireball_68x9_298
+  - first:
+      213: 4186533733430816399
+    second: Fireball_68x9_299
+  - first:
+      213: -7782814146955336582
+    second: Fireball_68x9_300
+  - first:
+      213: 2936007765263625911
+    second: Fireball_68x9_301
+  - first:
+      213: 1855977770078186274
+    second: Fireball_68x9_302
+  - first:
+      213: -100879799515712662
+    second: Fireball_68x9_303
+  - first:
+      213: -658776868397587053
+    second: Fireball_68x9_304
+  - first:
+      213: 7232093869414746287
+    second: Fireball_68x9_305
+  - first:
+      213: 6429985021136915613
+    second: Fireball_68x9_306
+  - first:
+      213: 940376174144153675
+    second: Fireball_68x9_307
+  - first:
+      213: 464877757158497520
+    second: Fireball_68x9_308
+  - first:
+      213: 6886864385220241180
+    second: Fireball_68x9_309
+  - first:
+      213: 3513015668271883587
+    second: Fireball_68x9_310
+  - first:
+      213: 43187576704071859
+    second: Fireball_68x9_311
+  - first:
+      213: -4224115528132184536
+    second: Fireball_68x9_312
+  - first:
+      213: 5767855144786030243
+    second: Fireball_68x9_313
+  - first:
+      213: 2536469131669231751
+    second: Fireball_68x9_314
+  - first:
+      213: -1057396505600369182
+    second: Fireball_68x9_315
+  - first:
+      213: 8319852983786889958
+    second: Fireball_68x9_316
+  - first:
+      213: -468724846986613733
+    second: Fireball_68x9_317
+  - first:
+      213: 6738932586214093176
+    second: Fireball_68x9_318
+  - first:
+      213: -1879143679009886790
+    second: Fireball_68x9_319
+  - first:
+      213: 5986300588137714581
+    second: Fireball_68x9_320
+  - first:
+      213: -346248362514103592
+    second: Fireball_68x9_321
+  - first:
+      213: 2263851056642151072
+    second: Fireball_68x9_322
+  - first:
+      213: -4690754352156035951
+    second: Fireball_68x9_323
+  - first:
+      213: 7544468337963191811
+    second: Fireball_68x9_324
+  - first:
+      213: 1220625793721621443
+    second: Fireball_68x9_325
+  - first:
+      213: 5811758228124235150
+    second: Fireball_68x9_326
+  - first:
+      213: 3094268880321657561
+    second: Fireball_68x9_327
+  - first:
+      213: 5719483441890584096
+    second: Fireball_68x9_328
+  - first:
+      213: -9058931441932266015
+    second: Fireball_68x9_329
+  - first:
+      213: 5884303058276750899
+    second: Fireball_68x9_330
+  - first:
+      213: 3240032561487289485
+    second: Fireball_68x9_331
+  - first:
+      213: 5842442263417197014
+    second: Fireball_68x9_332
+  - first:
+      213: -8556710447262071099
+    second: Fireball_68x9_333
+  - first:
+      213: -6949659408811119939
+    second: Fireball_68x9_334
+  - first:
+      213: 7084195871720266270
+    second: Fireball_68x9_335
+  - first:
+      213: -6924594273501721369
+    second: Fireball_68x9_336
+  - first:
+      213: -7385778622246352109
+    second: Fireball_68x9_337
+  - first:
+      213: -2383384543533422304
+    second: Fireball_68x9_338
+  - first:
+      213: -2750836519239850126
+    second: Fireball_68x9_339
+  - first:
+      213: -1880155268991977371
+    second: Fireball_68x9_340
+  - first:
+      213: -4224043047702504253
+    second: Fireball_68x9_341
+  - first:
+      213: 4891652927522961077
+    second: Fireball_68x9_342
+  - first:
+      213: 1245294249284824302
+    second: Fireball_68x9_343
+  - first:
+      213: -874806525288569621
+    second: Fireball_68x9_344
+  - first:
+      213: -6095236482118928487
+    second: Fireball_68x9_345
+  - first:
+      213: 6208064465108502774
+    second: Fireball_68x9_346
+  - first:
+      213: -8991695121852865296
+    second: Fireball_68x9_347
+  - first:
+      213: -6831449449111137648
+    second: Fireball_68x9_348
+  - first:
+      213: 2880725861649023923
+    second: Fireball_68x9_349
+  - first:
+      213: -3899452739901669531
+    second: Fireball_68x9_350
+  - first:
+      213: -3953416276459369376
+    second: Fireball_68x9_351
+  - first:
+      213: -9209839102052567511
+    second: Fireball_68x9_352
+  - first:
+      213: -9100016780654362791
+    second: Fireball_68x9_353
+  - first:
+      213: -6582231001697350676
+    second: Fireball_68x9_354
+  - first:
+      213: 1850208778397605995
+    second: Fireball_68x9_355
+  - first:
+      213: -2556509351421874870
+    second: Fireball_68x9_356
+  - first:
+      213: 7250888280384617306
+    second: Fireball_68x9_357
+  - first:
+      213: -3135899377150700772
+    second: Fireball_68x9_358
+  - first:
+      213: -5161277649111288695
+    second: Fireball_68x9_359
+  - first:
+      213: 6053482284598530965
+    second: Fireball_68x9_360
+  - first:
+      213: 6732468755654571822
+    second: Fireball_68x9_361
+  - first:
+      213: 2834023496623518856
+    second: Fireball_68x9_362
+  - first:
+      213: 7569458940080690578
+    second: Fireball_68x9_363
+  - first:
+      213: 5040680806023558714
+    second: Fireball_68x9_364
+  - first:
+      213: 7343173933058928375
+    second: Fireball_68x9_365
+  - first:
+      213: 2658404210331539687
+    second: Fireball_68x9_366
+  - first:
+      213: -1247758392684452604
+    second: Fireball_68x9_367
+  - first:
+      213: -3742773029670593887
+    second: Fireball_68x9_368
+  - first:
+      213: -8172657459930536317
+    second: Fireball_68x9_369
+  - first:
+      213: 5238084624428651849
+    second: Fireball_68x9_370
+  - first:
+      213: -8872389785942377396
+    second: Fireball_68x9_371
+  - first:
+      213: -9122139604703372435
+    second: Fireball_68x9_372
+  - first:
+      213: 2659425265936131916
+    second: Fireball_68x9_373
+  - first:
+      213: -7307634078275236115
+    second: Fireball_68x9_374
+  - first:
+      213: 9028589834431994184
+    second: Fireball_68x9_375
+  - first:
+      213: -5558265121335045973
+    second: Fireball_68x9_376
+  - first:
+      213: 2231622818873117127
+    second: Fireball_68x9_377
+  - first:
+      213: -4032128154472913276
+    second: Fireball_68x9_378
+  - first:
+      213: -2954177549684466852
+    second: Fireball_68x9_379
+  - first:
+      213: -5384647547923890108
+    second: Fireball_68x9_380
+  - first:
+      213: -7755227282490501020
+    second: Fireball_68x9_381
+  - first:
+      213: -6206921362730452191
+    second: Fireball_68x9_382
+  - first:
+      213: -2113995671059863268
+    second: Fireball_68x9_383
+  - first:
+      213: -5093534997060530689
+    second: Fireball_68x9_384
+  - first:
+      213: -1014975989494986492
+    second: Fireball_68x9_385
+  - first:
+      213: 6275751098780390341
+    second: Fireball_68x9_386
+  - first:
+      213: 3498252147828839444
+    second: Fireball_68x9_387
+  - first:
+      213: -4025043797346603423
+    second: Fireball_68x9_388
+  - first:
+      213: 2951885070026201457
+    second: Fireball_68x9_389
+  - first:
+      213: 4330023806739618280
+    second: Fireball_68x9_390
+  - first:
+      213: 6865553797517251347
+    second: Fireball_68x9_391
+  - first:
+      213: 2579876969869914626
+    second: Fireball_68x9_392
+  - first:
+      213: 5415295852919036379
+    second: Fireball_68x9_393
+  - first:
+      213: -2344013400940105748
+    second: Fireball_68x9_394
+  - first:
+      213: 5216831336648513676
+    second: Fireball_68x9_395
+  - first:
+      213: 1468924330932679434
+    second: Fireball_68x9_396
+  - first:
+      213: 5440895756863500744
+    second: Fireball_68x9_397
+  - first:
+      213: -4277796646943232937
+    second: Fireball_68x9_398
+  - first:
+      213: -1804620407870490731
+    second: Fireball_68x9_399
+  - first:
+      213: -4105430970524499209
+    second: Fireball_68x9_400
+  - first:
+      213: 2005973839324734116
+    second: Fireball_68x9_401
+  - first:
+      213: 2749123976250091720
+    second: Fireball_68x9_402
+  - first:
+      213: 3268298340574218497
+    second: Fireball_68x9_403
+  - first:
+      213: 361554630476705703
+    second: Fireball_68x9_404
+  - first:
+      213: -8168657128360304477
+    second: Fireball_68x9_405
+  - first:
+      213: 2227448185990765266
+    second: Fireball_68x9_406
+  - first:
+      213: 19052275247812713
+    second: Fireball_68x9_407
+  - first:
+      213: 1238925454524146973
+    second: Fireball_68x9_408
+  - first:
+      213: -9112672650821229699
+    second: Fireball_68x9_409
+  - first:
+      213: 1943212063450268518
+    second: Fireball_68x9_410
+  - first:
+      213: 7288621235864821240
+    second: Fireball_68x9_411
+  - first:
+      213: 5581435414454283707
+    second: Fireball_68x9_412
+  - first:
+      213: 5094865662271762511
+    second: Fireball_68x9_413
+  - first:
+      213: 8848045359718024394
+    second: Fireball_68x9_414
+  - first:
+      213: -854221270562582464
+    second: Fireball_68x9_415
+  - first:
+      213: 3931851287361628309
+    second: Fireball_68x9_416
+  - first:
+      213: 80747966905531343
+    second: Fireball_68x9_417
+  - first:
+      213: -79867070626211485
+    second: Fireball_68x9_418
+  - first:
+      213: -8966600389490665284
+    second: Fireball_68x9_419
+  - first:
+      213: -3225040398028711603
+    second: Fireball_68x9_420
+  - first:
+      213: -4571827252923356837
+    second: Fireball_68x9_421
+  - first:
+      213: -1908966863784021990
+    second: Fireball_68x9_422
+  - first:
+      213: -5896608710234395404
+    second: Fireball_68x9_423
+  - first:
+      213: -1090214211137136644
+    second: Fireball_68x9_424
+  - first:
+      213: -7444187874659491012
+    second: Fireball_68x9_425
+  - first:
+      213: 170470825403520071
+    second: Fireball_68x9_426
+  - first:
+      213: 4201304020757815833
+    second: Fireball_68x9_427
+  - first:
+      213: 1003398614008247186
+    second: Fireball_68x9_428
+  - first:
+      213: 5992957679115415473
+    second: Fireball_68x9_429
+  - first:
+      213: 637053494039292648
+    second: Fireball_68x9_430
+  - first:
+      213: 6792660168016480763
+    second: Fireball_68x9_431
+  - first:
+      213: 3345645277978003193
+    second: Fireball_68x9_432
+  - first:
+      213: -3418061455439307949
+    second: Fireball_68x9_433
+  - first:
+      213: -1694882414201475741
+    second: Fireball_68x9_434
+  - first:
+      213: 4304187592917444729
+    second: Fireball_68x9_435
+  - first:
+      213: 3551918003960331534
+    second: Fireball_68x9_436
+  - first:
+      213: 8284290422603528150
+    second: Fireball_68x9_437
+  - first:
+      213: -3014932212306599831
+    second: Fireball_68x9_438
+  - first:
+      213: 4237118170278328696
+    second: Fireball_68x9_439
+  - first:
+      213: 7791721905098288925
+    second: Fireball_68x9_440
+  - first:
+      213: -8595663052083114794
+    second: Fireball_68x9_441
+  - first:
+      213: 7765087678207741272
+    second: Fireball_68x9_442
+  - first:
+      213: 9062051020877108464
+    second: Fireball_68x9_443
+  - first:
+      213: -700404447294413771
+    second: Fireball_68x9_444
+  - first:
+      213: -6741302249380734002
+    second: Fireball_68x9_445
+  - first:
+      213: 7652247880170719048
+    second: Fireball_68x9_446
+  - first:
+      213: 3494544328785526207
+    second: Fireball_68x9_447
+  - first:
+      213: 6454257517034085593
+    second: Fireball_68x9_448
+  - first:
+      213: -8110170916173918221
+    second: Fireball_68x9_449
+  - first:
+      213: -7209407825447642098
+    second: Fireball_68x9_450
+  - first:
+      213: -6538263703760656157
+    second: Fireball_68x9_451
+  - first:
+      213: -3128585365569680134
+    second: Fireball_68x9_452
+  - first:
+      213: 3026247481346331826
+    second: Fireball_68x9_453
+  - first:
+      213: -6167959015314346117
+    second: Fireball_68x9_454
+  - first:
+      213: -8046103933173398471
+    second: Fireball_68x9_455
+  - first:
+      213: 5648432202962567125
+    second: Fireball_68x9_456
+  - first:
+      213: 6886946771105999817
+    second: Fireball_68x9_457
+  - first:
+      213: -6377328812662799917
+    second: Fireball_68x9_458
+  - first:
+      213: -7506257816094985383
+    second: Fireball_68x9_459
+  - first:
+      213: -5513100784450920749
+    second: Fireball_68x9_460
+  - first:
+      213: 3653126495197689960
+    second: Fireball_68x9_461
+  - first:
+      213: 8005504777431265896
+    second: Fireball_68x9_462
+  - first:
+      213: 6258086512559522033
+    second: Fireball_68x9_463
+  - first:
+      213: 3666084139619393651
+    second: Fireball_68x9_464
+  - first:
+      213: 1754142078161100890
+    second: Fireball_68x9_465
+  - first:
+      213: 5349745539087192153
+    second: Fireball_68x9_466
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fireball_68x9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e00964758e2bd50800000000000000
+      internalID: 6751714252925439555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3004e9773376de150800000000000000
+      internalID: 5903488157300441091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5314ad5360b80410800000000000000
+      internalID: 1443597621391528799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a3a2a70f158d8600800000000000000
+      internalID: 472179904262349734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1eb03b8c4327920800000000000000
+      internalID: 2986507539502064043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d6994a5dac89e20800000000000000
+      internalID: 3357656541143068040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_6
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b1cd506a726d9f0800000000000000
+      internalID: -444123919233049710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_7
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e9125b2ec1ffed0800000000000000
+      internalID: -2378150318201266576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fde9517113c6f50800000000000000
+      internalID: 6875924706304647040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_9
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 45
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f4903d661e49ba0800000000000000
+      internalID: -6082989364927180995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1070679a3f5bd9c00800000000000000
+      internalID: 909082757923473153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf05657051c9a2b20800000000000000
+      internalID: 3110470106784092412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120fcef216a422650800000000000000
+      internalID: 6206605017746305057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae6453715715b9c0800000000000000
+      internalID: -3912195062706704731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_14
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6422c7936c25ff480800000000000000
+      internalID: -8863274530320407994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_15
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82551886ada81db10800000000000000
+      internalID: 2004535979817391400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_16
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a283087a400b620800000000000000
+      internalID: 2787733286799551009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1118016058eadbfa0800000000000000
+      internalID: -5783274460118220527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_18
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381a559ed2368f50800000000000000
+      internalID: 6883245012052219954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_19
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 36
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b611470938406f20800000000000000
+      internalID: 3413807927318877873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f8328fbc9b04470800000000000000
+      internalID: 8376899592601702199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f973f739e017703c0800000000000000
+      internalID: -4393418604058560609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_22
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2063e2e50f14b70800000000000000
+      internalID: 8881644227444212477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db5427a92bee4160800000000000000
+      internalID: 7011800233992805329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b4c7f27b0652ac0800000000000000
+      internalID: -3880589164017857647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c24229e3ef67910800000000000000
+      internalID: 1834933442893327518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_26
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a2ed8ec6ab2680800000000000000
+      internalID: -8778739642554736338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_27
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1edb3826f2ffa120800000000000000
+      internalID: 2427425863226875423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_28
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac7047124e366c00800000000000000
+      internalID: 893470029658487977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_29
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 27
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238eea92a6b4ac0f0800000000000000
+      internalID: -1095980639973349326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db0a3d0c0a419350800000000000000
+      internalID: 6021675592393034704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_31
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa1d78a31885fb0800000000000000
+      internalID: -4658831726128025800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d283a7c5c948f3b20800000000000000
+      internalID: 3116355274264950829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_33
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456f34547ea99c060800000000000000
+      internalID: 6974275816050128468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_34
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbe435371b8ffdd0800000000000000
+      internalID: -2450086740473091136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_35
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba61d3401bd0185c0800000000000000
+      internalID: -4215072722310588757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_36
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88b143fc2e67c210800000000000000
+      internalID: 1353171352386910349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_37
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c950f207200e1df50800000000000000
+      internalID: 6904546004812367260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_38
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879a58aa876340cc0800000000000000
+      internalID: -3745809098180548232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_39
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 18
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccffb499176145590800000000000000
+      internalID: -7686493986855583796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61be392c0faf07890800000000000000
+      internalID: -7462188670589342954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_41
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e54b1776b82d6a0800000000000000
+      internalID: -6425920441898738046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49436aa15f2ad3da0800000000000000
+      internalID: -5963431157970881388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a385b9db216b52600800000000000000
+      internalID: 442960329972602938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_44
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3577bf1b682384690800000000000000
+      internalID: -7617783215604140205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c26a5a40bd4e20800000000000000
+      internalID: 3336516732341897408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_46
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151111e31a7eea680800000000000000
+      internalID: -8741795146962497199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_47
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc41eccf839c81e10800000000000000
+      internalID: 2168704467175609547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_48
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b960d747e61630180800000000000000
+      internalID: -9150362890858068325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_49
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 9
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e6c707b411dbff0800000000000000
+      internalID: -18839807732191697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5ba872b2f4e5bb0800000000000000
+      internalID: -4945428294040635953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_51
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990a6dd44421cf240800000000000000
+      internalID: 4826752985207316633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_52
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd98df7f3f55893c0800000000000000
+      internalID: -4352634533527582243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_53
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154f1fd0f5502e320800000000000000
+      internalID: 2585635041878078545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_54
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ff52abc4116ef50800000000000000
+      internalID: 6910229699484843807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_55
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0aa95d58eb475d0800000000000000
+      internalID: -3065615964308856656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_56
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81092aa98841e2d70800000000000000
+      internalID: 9020169680612134936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_57
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c27dc4d18f86d91b0800000000000000
+      internalID: -5648242942799980756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_58
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b00d1cc69539ab0800000000000000
+      internalID: -5002556437435511978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fireball_68x9_59
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cbe0c0b6f3910df0800000000000000
+      internalID: -215728619400401978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

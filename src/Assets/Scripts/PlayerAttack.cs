@@ -5,30 +5,51 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] float attackWaitTime, damage;
-
+    [SerializeField] GameObject fireballPrefab;
+    [SerializeField] Transform shootingPoint;
+    [SerializeField] AudioClip rangedAttackSound;
+    [SerializeField] AudioClip[] meleeAttackSound;
 
     bool canAttack = true;
 
     Animator anim;
+    PlayerMovement playerMovement;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
+        playerMovement = GetComponent<PlayerMovement>();
     }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && canAttack)
+        if (Input.GetButtonDown("Fire1") && canAttack && playerMovement.PlayerIsOnGround())
         {
-            Debug.Log("Attack");
             StartCoroutine(Attack());
         }
+
+        if (Input.GetButtonDown("Fire2") && canAttack)
+        {
+            StartCoroutine(RangedAttack());
+        }
+    }
+
+    IEnumerator RangedAttack()
+    {
+        canAttack = false;
+        anim.SetTrigger("ranged");
+        Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
+        AudioSource.PlayClipAtPoint(rangedAttackSound, transform.position);
+        //reduce hp
+        yield return new WaitForSeconds(attackWaitTime);
+        canAttack = true;
     }
 
     IEnumerator Attack()
     {
         anim.SetTrigger("attack");
         canAttack = false;
+        AudioSource.PlayClipAtPoint(meleeAttackSound[Random.Range(0, meleeAttackSound.Length)], transform.position);
         yield return new WaitForSeconds(attackWaitTime);
         canAttack = true;
     }

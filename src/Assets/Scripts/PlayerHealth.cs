@@ -9,7 +9,11 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] float immunityTimeInSec, extraImmunityAfterFlashing;
 
     [Header("Torch Degradation")]
-    [SerializeField][Range(0, 5f)] float degradationSpeed;
+    [SerializeField] float degradeAmount;
+    [SerializeField][Range(0, 5f)] float degradeSpeed;
+
+    [Header("FX")]
+    [SerializeField] AudioClip hurtSFX;
 
     bool canBeDamaged = true;
 
@@ -41,11 +45,10 @@ public class PlayerHealth : MonoBehaviour
     {
         if (canBeDamaged)
         {
-            Debug.Log("Collision trigger");
             if (collision.gameObject.CompareTag(ENEMY_PROJECTILE_TAG))
             {
-                Debug.Log("Collision trigger projectile");
                 Destroy(collision.gameObject);
+                AudioSource.PlayClipAtPoint(hurtSFX, transform.position);
                 GetDamage(collision.gameObject.GetComponent<EnemyProjectile>().GetDamage());
             }
         }
@@ -111,10 +114,10 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator DegradeTorchByTime()
     {
-        health -= 0.01f;
+        health -= degradeAmount;
         fireScript.UpdateTorch();
         CheckIfDead();
-        yield return new WaitForSeconds(degradationSpeed);
+        yield return new WaitForSeconds(degradeSpeed);
         StartCoroutine(DegradeTorchByTime());
     }
 }

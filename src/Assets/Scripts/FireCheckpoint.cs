@@ -5,13 +5,14 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class FireCheckpoint : MonoBehaviour
 {
-    [SerializeField] float minBonfireFlicker, maxBonfireFlicker, bonfireFlickerSpeed;
+    [SerializeField] float minBonfireFlicker, maxBonfireFlicker, bonfireFlickerSpeed, fadeOutTime;
 
     bool bonfireUsed, bonfireActive;
 
     Light2D bonfire;
     [SerializeField] GameObject player, fireSprite;
     PlayerHealth playerHealth;
+    AudioSource audioSource;
     
     
 
@@ -19,7 +20,8 @@ public class FireCheckpoint : MonoBehaviour
     {
         bonfire = GetComponent<Light2D>();
         playerHealth = player.GetComponent<PlayerHealth>();
-        GetComponentInChildren<Canvas>().enabled = true;
+        audioSource = GetComponent<AudioSource>();
+        HideText();
 
         StartCoroutine(BonfireFlicker());
     }
@@ -51,7 +53,6 @@ public class FireCheckpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        //il giocatore è in range
         if (collision.gameObject.CompareTag("Player"))
         {
             bonfireActive = true;
@@ -61,7 +62,6 @@ public class FireCheckpoint : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        //il giocatore è fuori dal range
         if (collision.gameObject.CompareTag("Player"))
         {
             bonfireActive = false;
@@ -72,8 +72,11 @@ public class FireCheckpoint : MonoBehaviour
     IEnumerator DestroyBonfire()
     {
         StartCoroutine(DeplenishFire());
+        transform.Find("Canvas").gameObject.SetActive(false);
+        StartCoroutine(FadeOutAudio(audioSource));
+
         yield return new WaitForSeconds(5);
-        Destroy(transform.Find("Canvas"));
+        Destroy(GetComponent<AudioSource>());
         Destroy(GetComponent<FireCheckpoint>());
     }
 
@@ -94,5 +97,14 @@ public class FireCheckpoint : MonoBehaviour
     void HideText()
     {
         GetComponentInChildren<Canvas>().enabled = false;
+    }
+
+    IEnumerator FadeOutAudio(AudioSource audioSource)
+    {
+        while (audioSource.volume > 0)
+        {
+            audioSource.volume -= audioSource.volume * Time.deltaTime / fadeOutTime;
+            yield return null;
+        }
     }
 }

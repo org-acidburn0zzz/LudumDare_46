@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class WizardAttack : MonoBehaviour
 {
+    [SerializeField] AudioClip[] attackSound;
     [SerializeField] float rateOfFire;
     [SerializeField] GameObject projectilePrefab;
     [SerializeField] Transform firepoint;
@@ -21,6 +22,7 @@ public class WizardAttack : MonoBehaviour
     {
         canShoot = false;
         Instantiate(projectilePrefab, firepoint.transform.position, firepoint.transform.rotation);
+        AudioSource.PlayClipAtPoint(attackSound[Random.Range(0, attackSound.Length)], transform.position);
         yield return new WaitForSeconds(1 / rateOfFire);
         canShoot = true;
     }
