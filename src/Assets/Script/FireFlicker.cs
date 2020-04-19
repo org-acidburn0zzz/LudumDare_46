@@ -9,13 +9,16 @@ public class FireFlicker : MonoBehaviour
 
     float defaultInnerRadius, defaultOuterRadius;
 
+    //Cache
     [SerializeField] GameObject player;
+    PlayerHealth playerHealth;
 
     new Light2D light;
 
     void Start()
     {
         light = GetComponent<Light2D>();
+        playerHealth = player.GetComponent<PlayerHealth>();
 
         defaultInnerRadius = light.pointLightInnerRadius;
         defaultOuterRadius = light.pointLightOuterRadius;
@@ -37,13 +40,19 @@ public class FireFlicker : MonoBehaviour
 
     public void UpdateFlickerValues()
     {
-        minFlicker = Mathf.Clamp(player.GetComponent<PlayerHealth>().GetPlayerHealth() - 0.2f, 0f, 2f);            
-        maxFlicker = player.GetComponent<PlayerHealth>().GetPlayerHealth() + 0.2f;
+        minFlicker = Mathf.Clamp(playerHealth.GetPlayerHealth() - 0.2f, 0f, 2f);            
+        maxFlicker = playerHealth.GetPlayerHealth() + 0.2f;
     }
 
     public void UpdateRadius()
     {
-        light.pointLightInnerRadius -= .5f;
-        light.pointLightOuterRadius -= .5f;
+        light.pointLightInnerRadius = defaultInnerRadius * playerHealth.GetPlayerHealth();
+        light.pointLightOuterRadius = defaultOuterRadius * playerHealth.GetPlayerHealth();
+    }
+
+    public void UpdateTorch()
+    {
+        UpdateFlickerValues();
+        UpdateRadius();
     }
 }
