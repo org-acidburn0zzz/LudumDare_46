@@ -63,7 +63,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRESS E TO REVIVE FLAME
+  m_text: PRESS E TO STOKE FLAME
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 30e10c65e8f6b4c91ae3227fd9cbe24a, type: 2}
   m_sharedMaterial: {fileID: -1325660630590375013, guid: 30e10c65e8f6b4c91ae3227fd9cbe24a,
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 1791851757653571364}
-    characterCount: 23
+    characterCount: 22
     spriteCount: 0
     spaceCount: 4
     wordCount: 5
@@ -184,6 +184,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1791851759268647341}
+  - {fileID: 1791851759253506927}
   - {fileID: 1791851758840203079}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -224,7 +225,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.073, y: 0.012}
+  m_AnchoredPosition: {x: 0.07299986, y: 0.011999726}
   m_SizeDelta: {x: 6.942775, y: 1.8066106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1791851758279079963
@@ -316,10 +317,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.044, y: -0.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1791851759253506927}
+  m_Children: []
   m_Father: {fileID: 1791851757967089480}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1791851758840203077
 SpriteRenderer:
@@ -431,12 +431,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791851759253506926}
   m_LocalRotation: {x: -0, y: -0, z: 0.0053486964, w: 0.9999857}
-  m_LocalPosition: {x: -0.007999986, y: -0.57, z: 0}
+  m_LocalPosition: {x: 0.036000013, y: -1.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1791851758279079956}
-  m_Father: {fileID: 1791851758840203079}
-  m_RootOrder: 0
+  m_Father: {fileID: 1791851757967089480}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -180, y: -0.000015258789, z: 0}
 --- !u!114 &1791851759253506925
 MonoBehaviour:
@@ -521,7 +521,7 @@ MonoBehaviour:
   maxBonfireFlicker: 1.2
   bonfireFlickerSpeed: 25
   fadeOutTime: 2
-  player: {fileID: 0}
+  player: {fileID: 3780428750398384959, guid: d00ee9f142ec17f4aa83d691172b5112, type: 3}
   fireSprite: {fileID: 1791851758840203078}
 --- !u!82 &1222968879
 AudioSource:

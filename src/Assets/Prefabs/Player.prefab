@@ -571,6 +571,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackWaitTime: 1
   damage: 10
+  rangedAttackCost: 0.05
   fireballPrefab: {fileID: 1857196069252594107, guid: f815a138b553ec54d9f56dfa677007ee,
     type: 3}
   shootingPoint: {fileID: 3484830022214609022}

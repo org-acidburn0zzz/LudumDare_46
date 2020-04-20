@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerHealth : MonoBehaviour
 {
     [Header("Health")]
-    [SerializeField] float health = 1;
+    [SerializeField] float health = 1.2f;
     [SerializeField] float immunityTimeInSec, extraImmunityAfterFlashing;
 
     [Header("Torch Degradation")]
@@ -19,20 +19,34 @@ public class PlayerHealth : MonoBehaviour
 
     const string ENEMY_PROJECTILE_TAG = "Enemy_Projectile";
     const string TORCH_SPRITE = "Torch_Fire";
+    const string TORCH_BODY = "Torch_Body";
+    const string ENEMY_TAG = "Enemy";
 
     //Cache
     SpriteRenderer sr;
     [SerializeField] GameObject torch;
-    SpriteRenderer torch_sr;
+    SpriteRenderer torch_sr, torch_body_sr;
     FireFlicker fireScript;
+    Animator anim;
+    Rigidbody2D rb;
+    LevelController levelController;
+
+
 
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         fireScript = GetComponentInChildren<FireFlicker>();
         var torch_fire = torch.gameObject.transform.Find(TORCH_SPRITE);
+        var torch_body = torch.gameObject.transform.Find(TORCH_BODY);
         torch_sr = torch_fire.GetComponent<SpriteRenderer>();
+        torch_body_sr = torch_body.GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+        levelController = FindObjectOfType<LevelController>().GetComponent<LevelController>();
 
+
+        anim.SetBool("isDead", false);
         StartCoroutine(DegradeTorchByTime());
     }
 
@@ -62,7 +76,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    void GetDamage(float damage)
+    public void GetDamage(float damage)
     {
         health -= damage;
         StartCoroutine(PlayerGetsDamaged());
@@ -72,10 +86,21 @@ public class PlayerHealth : MonoBehaviour
 
     void CheckIfDead()
     {
-        if (health <= 0)
+        if (health <= .2f)
         {
-            //todo,.kill 
+            StartCoroutine(PlayerDeath());
         }
+    }
+
+    IEnumerator PlayerDeath()
+    {
+        Time.timeScale = 0.3f;
+        anim.SetBool("isDead", true);
+        Vector2 backwards = -rb.velocity;
+        rb.AddForce(backwards * 5);
+        yield return new WaitForSeconds(1.5f);
+        levelController.SetLatestLevel();
+        levelController.LoadGameOver();
     }
     
     IEnumerator PlayerGetsDamaged()
@@ -92,6 +117,7 @@ public class PlayerHealth : MonoBehaviour
             Debug.Log("Flashing");
             sr.enabled = !sr.enabled;
             torch_sr.enabled = !torch_sr.enabled;
+            torch_body_sr.enabled = !torch_body_sr.enabled;
             yield return new WaitForSeconds(0.1f);
         }
         canBeDamaged = true;
@@ -107,9 +133,14 @@ public class PlayerHealth : MonoBehaviour
         this.health = health;
     }
 
-    public void IncreasePlayerHealth(float increaseHealth)
+    public void DecreasePlayerHealth(float decreaseAmount)
     {
-        this.health += increaseHealth;
+        this.health -= decreaseAmount;
+    }
+
+    public void IncreasePlayerHealth(float increaseAmount)
+    {
+        this.health += increaseAmount;
     }
 
     IEnumerator DegradeTorchByTime()

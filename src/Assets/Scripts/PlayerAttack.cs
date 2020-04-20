@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] float attackWaitTime, damage;
+    [SerializeField] float attackWaitTime, damage, rangedAttackCost;
     [SerializeField] GameObject fireballPrefab;
     [SerializeField] Transform shootingPoint;
     [SerializeField] AudioClip rangedAttackSound;
@@ -14,11 +14,13 @@ public class PlayerAttack : MonoBehaviour
 
     Animator anim;
     PlayerMovement playerMovement;
+    PlayerHealth playerHealth;
 
     private void Start()
     {
         anim = GetComponent<Animator>();
         playerMovement = GetComponent<PlayerMovement>();
+        playerHealth = GetComponent<PlayerHealth>();
     }
 
     private void Update()
@@ -41,6 +43,8 @@ public class PlayerAttack : MonoBehaviour
         Instantiate(fireballPrefab, shootingPoint.position, shootingPoint.rotation);
         AudioSource.PlayClipAtPoint(rangedAttackSound, transform.position);
         //reduce hp
+        playerHealth.DecreasePlayerHealth(rangedAttackCost);
+
         yield return new WaitForSeconds(attackWaitTime);
         canAttack = true;
     }

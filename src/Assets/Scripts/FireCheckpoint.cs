@@ -56,7 +56,6 @@ public class FireCheckpoint : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             bonfireActive = true;
-            Debug.Log(bonfireActive);
         }
     }
 
@@ -65,14 +64,16 @@ public class FireCheckpoint : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             bonfireActive = false;
-            Debug.Log(bonfireActive);
         }
     }
 
     IEnumerator DestroyBonfire()
     {
         StartCoroutine(DeplenishFire());
-        transform.Find("Canvas").gameObject.SetActive(false);
+        if (GetComponentInChildren<Canvas>() != null)
+        {
+            transform.Find("Canvas").gameObject.SetActive(false);
+        }
         StartCoroutine(FadeOutAudio(audioSource));
 
         yield return new WaitForSeconds(5);
@@ -90,13 +91,18 @@ public class FireCheckpoint : MonoBehaviour
 
     void ShowText()
     {
-       
-        GetComponentInChildren<Canvas>().enabled = true;
+        if (GetComponentInChildren<Canvas>() != null)
+        {
+            GetComponentInChildren<Canvas>().enabled = true;
+        }
     }
 
     void HideText()
     {
-        GetComponentInChildren<Canvas>().enabled = false;
+        if (GetComponentInChildren<Canvas>() != null)
+        {
+            GetComponentInChildren<Canvas>().enabled = false;
+        }
     }
 
     IEnumerator FadeOutAudio(AudioSource audioSource)
