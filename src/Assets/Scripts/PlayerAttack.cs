@@ -25,7 +25,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && canAttack && playerMovement.PlayerIsOnGround())
+        if (Input.GetButtonDown("Fire1") && canAttack)
         {
             StartCoroutine(Attack());
         }
