@@ -94,8 +94,8 @@ public class PlayerHealth : MonoBehaviour
 
     IEnumerator PlayerDeath()
     {
-        Time.timeScale = 0.3f;
         anim.SetBool("isDead", true);
+        sr.color = Color.red;
         Vector2 backwards = -rb.velocity;
         rb.AddForce(backwards * 5);
         yield return new WaitForSeconds(1.5f);
