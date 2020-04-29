@@ -18,7 +18,10 @@ public class LevelController : MonoBehaviour
     private void Start()
     {
         anim = GetComponentInChildren<Animator>();
-        audioController = FindObjectOfType<AudioController>().GetComponent<AudioController>();
+        if (FindObjectOfType<AudioController>().GetComponent<AudioController>() != null)
+        {
+            audioController = FindObjectOfType<AudioController>().GetComponent<AudioController>();
+        }
     }
 
 
